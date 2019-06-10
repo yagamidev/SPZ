@@ -1,8 +1,8 @@
 var ConvertLib = artifacts.require("./ConvertLib.sol");
-var GcgToken = artifacts.require("./GcgToken.sol");
+var SPZToken = artifacts.require("./SPZToken.sol");
 
 module.exports = function(deployer) {
   deployer.deploy(ConvertLib);
-  deployer.link(ConvertLib, GcgToken);
-  deployer.deploy(GcgToken);
+  deployer.link(ConvertLib, SPZToken);
+  deployer.deploy(SPZToken);
 };

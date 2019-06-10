@@ -43,15 +43,15 @@ contract ERC20Interface {
 interface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) external; }
 
 
-contract GcgToken is ERC20Interface {
+contract SPZToken is ERC20Interface {
   using SafeMath for uint;
 
   // State variables
-  string public name = 'Global Crypto Gate';
-  string public symbol = 'GCG';
+  string public name = 'SwapCoinz';
+  string public symbol = 'SPZ';
   uint public decimals = 8;
   address public owner;
-  uint public totalSupply = 1000000000 * (10 ** 8);
+  uint public totalSupply = 90000000 * (10 ** 8);
   bool public emergencyFreeze;
   
   // mappings
