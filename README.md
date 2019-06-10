@@ -1,2 +1,2 @@
-# GCGToken
-Global Crypto Gate token
+# SPZToken
+SwapCoinz token
